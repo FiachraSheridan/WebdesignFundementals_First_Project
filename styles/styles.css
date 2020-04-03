@@ -1,0 +1,102 @@
+header
+{
+    background-image: url(../images/SK_SIDEVIEW_YELLOW__37102.1567813873.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+nav
+{
+    background-color: #c76228;
+    padding: 5px;
+    text-align: center;
+    
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover
+{
+    background-color: #8E8E8E;
+}
+nav ul li:active
+{
+    background-color: aqua;
+}
+body
+{
+    background-color: #e6a930;
+    color: white;
+}
+#content
+{
+    background-color: #e6a930;
+    /*background-image: url(../images/WoodPlank.jpg);*/
+    float: left;
+    width: 80%;
+    /*margin-right: 15px;*/
+    border: 1px solid gray;
+    
+}
+aside
+{
+    background-color: black;
+    /*border: .5px solid ;*/
+    width: 19.8%;
+    float: right;
+}
+aside ul li
+{
+    list-style-type: none;
+}
+aside ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+.imageText
+{
+    padding-left: 25%;
+}
+#bigPic {
+    width: 100%;
+    
+}
+
+#active {
+    background-color: green;
+}
+
+.col_detail {
+    color: 	white;
+   <!-- column-count: 2; -->
+    column-rule: 1px solid blue;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    textext-align: center;
+}
